@@ -1,0 +1,80 @@
+{
+  "name": "adversarial-pixel-debate",
+  "version": "0.1.0",
+  "description": "A local Codex OAuth powered adversarial multi-agent decision war room desktop app.",
+  "author": "Adversarial Pixel Debate contributors",
+  "private": false,
+  "license": "Apache-2.0",
+  "keywords": [
+    "codex",
+    "oauth",
+    "multi-agent",
+    "decision-support",
+    "threejs",
+    "electron"
+  ],
+  "type": "module",
+  "main": "electron/main.mjs",
+  "scripts": {
+    "assets": "node scripts/generate-war-room-assets.mjs",
+    "icon": "python3 scripts/generate-app-icon.py && iconutil -c icns build/icon.iconset -o build/icon.icns",
+    "dev": "npm run assets && concurrently -k -n server,client -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:client": "vite --host 127.0.0.1 --port 5177",
+    "dev:server": "tsx watch server/index.ts",
+    "build": "npm run assets && tsc -b && vite build && npm run build:server",
+    "build:server": "tsc -p tsconfig.server.json",
+    "desktop": "npm run build && electron electron/main.mjs",
+    "desktop:dev": "npm run build && electron electron/main.mjs",
+    "dist:mac": "npm run build && electron-builder --mac dir",
+    "iterate:scan": "node scripts/iteration-scan.mjs",
+    "iterate:score": "node scripts/iteration-score.mjs",
+    "iterate:record": "node scripts/record-iteration.mjs",
+    "iterate:gate": "npm run iterate:scan && npm run iterate:score && npm test && npm run build",
+    "iterate:evolve:eval": "python3 openevolve/adversarial-pixel-debate/evaluator.py openevolve/adversarial-pixel-debate/initial_program.py",
+    "iterate:evolve:ui": "python3 /Users/gengrf/AlphaEvolve/repos/openevolve-community/openevolve-run.py openevolve/adversarial-pixel-debate/initial_program.py openevolve/adversarial-pixel-debate/evaluator.py --config openevolve/adversarial-pixel-debate/config.yaml --iterations 8",
+    "test": "npm run assets && vitest run"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "concurrently": "^9.2.1",
+    "express": "^5.2.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.184.0",
+    "tsx": "^4.21.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "@types/ws": "^8.18.1",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vitest": "^4.0.16"
+  },
+  "build": {
+    "appId": "local.adversarial-pixel-debate",
+    "productName": "Adversarial Pixel Debate",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-server/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dir"
+      ]
+    }
+  }
+}

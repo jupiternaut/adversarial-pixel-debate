@@ -1,0 +1,37 @@
+max_iterations: 8
+checkpoint_interval: 2
+random_seed: 42
+diff_based_evolution: true
+max_code_length: 8000
+
+llm:
+  models:
+    - name: "gpt-5-mini"
+      weight: 1.0
+  evaluator_models:
+    - name: "gpt-5-mini"
+      weight: 1.0
+  api_base: "https://api.openai.com/v1"
+  api_key: ${OPENAI_API_KEY}
+  temperature: 0.45
+  max_tokens: 4096
+  timeout: 120
+
+prompt:
+  system_message: "You improve a Python function that returns a safe version-iteration control plan for an Electron/Vite desktop app. Keep OpenSpec as the governance source, keep OpenEvolve sandboxed, and do not propose direct production mutation."
+  evaluator_system_message: "You are a strict reviewer for software iteration governance."
+  include_artifacts: true
+
+database:
+  population_size: 24
+  archive_size: 8
+  num_islands: 2
+  feature_dimensions:
+    - "complexity"
+    - "safety_score"
+  feature_bins: 6
+
+evaluator:
+  timeout: 30
+  cascade_evaluation: false
+  parallel_evaluations: 2

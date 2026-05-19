@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "seed": "war-room-v2-20260518",
+  "theme": {
+    "name": "AI War Room",
+    "positivePrompts": [
+      "AI war room",
+      "glass conference table",
+      "calm product-grade interface",
+      "tactical data wall",
+      "agent-native desktop console",
+      "visible run evidence"
+    ],
+    "negativePrompts": [
+      "cheap pixel art",
+      "baked messy lighting",
+      "random cartoon",
+      "overdecorated fantasy UI",
+      "copied app assets"
+    ],
+    "rules": [
+      "Structure sketch before asset generation",
+      "Unit assets first, scene composition second",
+      "Lighting belongs to Three.js, not baked tile textures",
+      "Every generated asset must be named, sized, and referenced through the manifest"
+    ]
+  },
+  "atlases": [
+    {
+      "id": "war-room-atlas",
+      "file": "war-room-atlas.svg",
+      "width": 512,
+      "height": 512,
+      "cells": {
+        "floor-grid": {
+          "atlas": "war-room-atlas",
+          "x": 0,
+          "y": 0,
+          "width": 256,
+          "height": 256
+        },
+        "data-wall": {
+          "atlas": "war-room-atlas",
+          "x": 256,
+          "y": 0,
+          "width": 256,
+          "height": 128
+        },
+        "glass-panel": {
+          "atlas": "war-room-atlas",
+          "x": 256,
+          "y": 128,
+          "width": 256,
+          "height": 128
+        },
+        "icon-strip": {
+          "atlas": "war-room-atlas",
+          "x": 0,
+          "y": 256,
+          "width": 256,
+          "height": 128
+        },
+        "table-top": {
+          "atlas": "war-room-atlas",
+          "x": 256,
+          "y": 256,
+          "width": 256,
+          "height": 128
+        },
+        "status-light": {
+          "atlas": "war-room-atlas",
+          "x": 0,
+          "y": 384,
+          "width": 256,
+          "height": 128
+        },
+        "logo-plate": {
+          "atlas": "war-room-atlas",
+          "x": 256,
+          "y": 384,
+          "width": 256,
+          "height": 128
+        }
+      }
+    },
+    {
+      "id": "agent-status-atlas",
+      "file": "agent-status-atlas.svg",
+      "width": 800,
+      "height": 512,
+      "frameWidth": 160,
+      "frameHeight": 128
+    }
+  ],
+  "materials": {
+    "floor": {
+      "color": "#172338",
+      "roughness": 0.72,
+      "metalness": 0.18,
+      "texture": "floor-grid"
+    },
+    "glassTable": {
+      "color": "#8fd3ff",
+      "roughness": 0.18,
+      "metalness": 0.08,
+      "opacity": 0.38,
+      "texture": "table-top"
+    },
+    "dataWall": {
+      "color": "#70e8ff",
+      "roughness": 0.25,
+      "metalness": 0.28,
+      "emissiveIntensity": 0.72,
+      "texture": "data-wall"
+    },
+    "translucentPanel": {
+      "color": "#9ed8ff",
+      "roughness": 0.32,
+      "metalness": 0.02,
+      "opacity": 0.54,
+      "texture": "glass-panel"
+    }
+  },
+  "roles": {
+    "bull": {
+      "color": "#19a463",
+      "frames": {
+        "idle": {
+          "atlas": "agent-status-atlas",
+          "x": 0,
+          "y": 0,
+          "width": 160,
+          "height": 128
+        },
+        "queued": {
+          "atlas": "agent-status-atlas",
+          "x": 160,
+          "y": 0,
+          "width": 160,
+          "height": 128
+        },
+        "speaking": {
+          "atlas": "agent-status-atlas",
+          "x": 320,
+          "y": 0,
+          "width": 160,
+          "height": 128
+        },
+        "done": {
+          "atlas": "agent-status-atlas",
+          "x": 480,
+          "y": 0,
+          "width": 160,
+          "height": 128
+        },
+        "error": {
+          "atlas": "agent-status-atlas",
+          "x": 640,
+          "y": 0,
+          "width": 160,
+          "height": 128
+        }
+      }
+    },
+    "bear": {
+      "color": "#c7403a",
+      "frames": {
+        "idle": {
+          "atlas": "agent-status-atlas",
+          "x": 0,
+          "y": 128,
+          "width": 160,
+          "height": 128
+        },
+        "queued": {
+          "atlas": "agent-status-atlas",
+          "x": 160,
+          "y": 128,
+          "width": 160,
+          "height": 128
+        },
+        "speaking": {
+          "atlas": "agent-status-atlas",
+          "x": 320,
+          "y": 128,
+          "width": 160,
+          "height": 128
+        },
+        "done": {
+          "atlas": "agent-status-atlas",
+          "x": 480,
+          "y": 128,
+          "width": 160,
+          "height": 128
+        },
+        "error": {
+          "atlas": "agent-status-atlas",
+          "x": 640,
+          "y": 128,
+          "width": 160,
+          "height": 128
+        }
+      }
+    },
+    "engineer": {
+      "color": "#2f6fc7",
+      "frames": {
+        "idle": {
+          "atlas": "agent-status-atlas",
+          "x": 0,
+          "y": 256,
+          "width": 160,
+          "height": 128
+        },
+        "queued": {
+          "atlas": "agent-status-atlas",
+          "x": 160,
+          "y": 256,
+          "width": 160,
+          "height": 128
+        },
+        "speaking": {
+          "atlas": "agent-status-atlas",
+          "x": 320,
+          "y": 256,
+          "width": 160,
+          "height": 128
+        },
+        "done": {
+          "atlas": "agent-status-atlas",
+          "x": 480,
+          "y": 256,
+          "width": 160,
+          "height": 128
+        },
+        "error": {
+          "atlas": "agent-status-atlas",
+          "x": 640,
+          "y": 256,
+          "width": 160,
+          "height": 128
+        }
+      }
+    },
+    "moderator": {
+      "color": "#b8871f",
+      "frames": {
+        "idle": {
+          "atlas": "agent-status-atlas",
+          "x": 0,
+          "y": 384,
+          "width": 160,
+          "height": 128
+        },
+        "queued": {
+          "atlas": "agent-status-atlas",
+          "x": 160,
+          "y": 384,
+          "width": 160,
+          "height": 128
+        },
+        "speaking": {
+          "atlas": "agent-status-atlas",
+          "x": 320,
+          "y": 384,
+          "width": 160,
+          "height": 128
+        },
+        "done": {
+          "atlas": "agent-status-atlas",
+          "x": 480,
+          "y": 384,
+          "width": 160,
+          "height": 128
+        },
+        "error": {
+          "atlas": "agent-status-atlas",
+          "x": 640,
+          "y": 384,
+          "width": 160,
+          "height": 128
+        }
+      }
+    }
+  }
+}

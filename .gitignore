@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-server
+release
+.codex
+.DS_Store
+*.log
+.env
+.env.local
+.env.*
+!.env.example
+*.tsbuildinfo
+__pycache__/
+*.pyc

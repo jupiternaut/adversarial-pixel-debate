@@ -1,0 +1,781 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="512" viewBox="0 0 800 512" shape-rendering="crispEdges"><g id="bull-idle" transform="translate(0 0)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#8091a5" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#8091a5" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#733c38"/>
+    <rect x="8" y="8" width="48" height="14" fill="#d8793b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffb15f"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffb15f"/>
+    <rect x="5" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="51" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#8b52b9"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#f2b84b"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="11" height="14" fill="#09111f"/><rect x="50" y="64" width="7" height="10" fill="#fff8db"/><rect x="51" y="71" width="1" height="3" fill="#19a463"/><rect x="54" y="69" width="1" height="5" fill="#2868c7"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BULL</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Growth CEO</text>
+    <text x="82" y="76" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">IDLE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#8091a5" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#8091a5" rx="2" opacity="0.9"/>
+  </g><g id="bull-queued" transform="translate(160 0)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#d09a26" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#d09a26" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)" opacity="0.74">
+    <rect x="14" y="0" width="34" height="10" fill="#733c38"/>
+    <rect x="8" y="8" width="48" height="14" fill="#d8793b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffb15f"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffb15f"/>
+    <rect x="5" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="51" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#8b52b9"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#f2b84b"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="11" height="14" fill="#09111f"/><rect x="50" y="64" width="7" height="10" fill="#fff8db"/><rect x="51" y="71" width="1" height="3" fill="#19a463"/><rect x="54" y="69" width="1" height="5" fill="#2868c7"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BULL</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Growth CEO</text>
+    <text x="82" y="76" fill="#d09a26" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">QUEUE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#d09a26" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#d09a26" rx="2" opacity="0.9"/>
+  </g><g id="bull-speaking" transform="translate(320 0)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#19a463" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#19a463" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="11" fill="#70e8ff"/>
+    <rect x="28" y="97" width="6" height="16" fill="#70e8ff"/>
+    <rect x="38" y="101" width="6" height="8" fill="#70e8ff"/>
+    <rect x="48" y="96" width="6" height="16" fill="#70e8ff"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#733c38"/>
+    <rect x="8" y="8" width="48" height="14" fill="#d8793b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffb15f"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffb15f"/>
+    <rect x="5" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="51" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#8b52b9"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#f2b84b"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="11" height="14" fill="#09111f"/><rect x="50" y="64" width="7" height="10" fill="#fff8db"/><rect x="51" y="69" width="1" height="5" fill="#19a463"/><rect x="54" y="67" width="1" height="7" fill="#2868c7"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="56" y="36" width="3" height="3" fill="#f2b84b"/><rect x="62" y="31" width="3" height="3" fill="#f2b84b"/>
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BULL</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Growth CEO</text>
+    <text x="82" y="76" fill="#19a463" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">LIVE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="40" height="7" fill="#19a463" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#70e8ff" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#19a463" rx="2" opacity="0.9"/>
+  </g><g id="bull-done" transform="translate(480 0)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#19a463" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#19a463" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#19a463"/>
+    <rect x="28" y="97" width="6" height="7" fill="#19a463"/>
+    <rect x="38" y="101" width="6" height="3" fill="#19a463"/>
+    <rect x="48" y="96" width="6" height="8" fill="#19a463"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#733c38"/>
+    <rect x="8" y="8" width="48" height="14" fill="#d8793b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffb15f"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffb15f"/>
+    <rect x="5" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="51" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#19a463"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#8b52b9"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#f2b84b"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="11" height="14" fill="#09111f"/><rect x="50" y="64" width="7" height="10" fill="#fff8db"/><rect x="51" y="69" width="1" height="5" fill="#19a463"/><rect x="54" y="67" width="1" height="7" fill="#2868c7"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BULL</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Growth CEO</text>
+    <text x="82" y="76" fill="#19a463" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">DONE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="51" height="7" fill="#19a463" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#19a463" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#19a463" rx="2" opacity="0.9"/>
+  </g><g id="bull-error" transform="translate(640 0)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#c7403a" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#c7403a" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#c7403a"/>
+    <rect x="28" y="97" width="6" height="7" fill="#c7403a"/>
+    <rect x="38" y="101" width="6" height="3" fill="#c7403a"/>
+    <rect x="48" y="96" width="6" height="8" fill="#c7403a"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#733c38"/>
+    <rect x="8" y="8" width="48" height="14" fill="#d8793b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffb15f"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffb15f"/>
+    <rect x="5" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="51" y="20" width="8" height="18" fill="#733c38"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="41" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="28" y="44" width="10" height="3" fill="#c7403a"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#8b52b9"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#f2b84b"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="11" height="14" fill="#09111f"/><rect x="50" y="64" width="7" height="10" fill="#fff8db"/><rect x="51" y="71" width="1" height="3" fill="#19a463"/><rect x="54" y="69" width="1" height="5" fill="#2868c7"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    <rect x="58" y="8" width="4" height="15" fill="#c7403a"/><rect x="58" y="27" width="4" height="4" fill="#c7403a"/>
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BULL</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Growth CEO</text>
+    <text x="82" y="76" fill="#c7403a" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">ERR</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="18" height="7" fill="#c7403a" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#c7403a" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#c7403a" rx="2" opacity="0.9"/>
+  </g><g id="bear-idle" transform="translate(0 128)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#8091a5" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#8091a5" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#552439"/>
+    <rect x="8" y="8" width="48" height="14" fill="#a8323f"/>
+    <rect x="11" y="3" width="9" height="16" fill="#e85f64"/>
+    <rect x="39" y="4" width="8" height="14" fill="#e85f64"/>
+    <rect x="5" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="51" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#bb4151"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#70c84f"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="12" height="16" fill="#09111f"/><rect x="50" y="65" width="8" height="11" fill="#fff7f7"/><rect x="51" y="68" width="5" height="1" fill="#c7403a"/><rect x="51" y="72" width="5" height="1" fill="#8091a5"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAR</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Risk Reviewer</text>
+    <text x="82" y="76" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">IDLE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#8091a5" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#8091a5" rx="2" opacity="0.9"/>
+  </g><g id="bear-queued" transform="translate(160 128)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#d09a26" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#d09a26" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)" opacity="0.74">
+    <rect x="14" y="0" width="34" height="10" fill="#552439"/>
+    <rect x="8" y="8" width="48" height="14" fill="#a8323f"/>
+    <rect x="11" y="3" width="9" height="16" fill="#e85f64"/>
+    <rect x="39" y="4" width="8" height="14" fill="#e85f64"/>
+    <rect x="5" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="51" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#bb4151"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#70c84f"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="12" height="16" fill="#09111f"/><rect x="50" y="65" width="8" height="11" fill="#fff7f7"/><rect x="51" y="68" width="5" height="1" fill="#c7403a"/><rect x="51" y="72" width="5" height="1" fill="#8091a5"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAR</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Risk Reviewer</text>
+    <text x="82" y="76" fill="#d09a26" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">QUEUE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#d09a26" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#d09a26" rx="2" opacity="0.9"/>
+  </g><g id="bear-speaking" transform="translate(320 128)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#c7403a" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#c7403a" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="11" fill="#70e8ff"/>
+    <rect x="28" y="97" width="6" height="16" fill="#70e8ff"/>
+    <rect x="38" y="101" width="6" height="8" fill="#70e8ff"/>
+    <rect x="48" y="96" width="6" height="16" fill="#70e8ff"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#552439"/>
+    <rect x="8" y="8" width="48" height="14" fill="#a8323f"/>
+    <rect x="11" y="3" width="9" height="16" fill="#e85f64"/>
+    <rect x="39" y="4" width="8" height="14" fill="#e85f64"/>
+    <rect x="5" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="51" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#bb4151"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#70c84f"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="12" height="16" fill="#09111f"/><rect x="50" y="65" width="8" height="11" fill="#fff7f7"/><rect x="51" y="68" width="5" height="1" fill="#c7403a"/><rect x="51" y="72" width="5" height="1" fill="#c7403a"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="56" y="36" width="3" height="3" fill="#70c84f"/><rect x="62" y="31" width="3" height="3" fill="#70c84f"/>
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAR</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Risk Reviewer</text>
+    <text x="82" y="76" fill="#c7403a" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">LIVE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="40" height="7" fill="#c7403a" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#70e8ff" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#c7403a" rx="2" opacity="0.9"/>
+  </g><g id="bear-done" transform="translate(480 128)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#19a463" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#19a463" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#19a463"/>
+    <rect x="28" y="97" width="6" height="7" fill="#19a463"/>
+    <rect x="38" y="101" width="6" height="3" fill="#19a463"/>
+    <rect x="48" y="96" width="6" height="8" fill="#19a463"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#552439"/>
+    <rect x="8" y="8" width="48" height="14" fill="#a8323f"/>
+    <rect x="11" y="3" width="9" height="16" fill="#e85f64"/>
+    <rect x="39" y="4" width="8" height="14" fill="#e85f64"/>
+    <rect x="5" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="51" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#19a463"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#bb4151"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#70c84f"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="12" height="16" fill="#09111f"/><rect x="50" y="65" width="8" height="11" fill="#fff7f7"/><rect x="51" y="68" width="5" height="1" fill="#c7403a"/><rect x="51" y="72" width="5" height="1" fill="#c7403a"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAR</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Risk Reviewer</text>
+    <text x="82" y="76" fill="#19a463" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">DONE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="51" height="7" fill="#19a463" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#19a463" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#19a463" rx="2" opacity="0.9"/>
+  </g><g id="bear-error" transform="translate(640 128)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#c7403a" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#c7403a" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#c7403a"/>
+    <rect x="28" y="97" width="6" height="7" fill="#c7403a"/>
+    <rect x="38" y="101" width="6" height="3" fill="#c7403a"/>
+    <rect x="48" y="96" width="6" height="8" fill="#c7403a"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#552439"/>
+    <rect x="8" y="8" width="48" height="14" fill="#a8323f"/>
+    <rect x="11" y="3" width="9" height="16" fill="#e85f64"/>
+    <rect x="39" y="4" width="8" height="14" fill="#e85f64"/>
+    <rect x="5" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="51" y="20" width="8" height="18" fill="#552439"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="41" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="28" y="44" width="10" height="3" fill="#c7403a"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#bb4151"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#70c84f"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="62" width="12" height="16" fill="#09111f"/><rect x="50" y="65" width="8" height="11" fill="#fff7f7"/><rect x="51" y="68" width="5" height="1" fill="#c7403a"/><rect x="51" y="72" width="5" height="1" fill="#8091a5"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    <rect x="58" y="8" width="4" height="15" fill="#c7403a"/><rect x="58" y="27" width="4" height="4" fill="#c7403a"/>
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">BEAR</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Risk Reviewer</text>
+    <text x="82" y="76" fill="#c7403a" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">ERR</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="18" height="7" fill="#c7403a" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#c7403a" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#c7403a" rx="2" opacity="0.9"/>
+  </g><g id="engineer-idle" transform="translate(0 256)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#8091a5" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#8091a5" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#3f2a2a"/>
+    <rect x="8" y="8" width="48" height="14" fill="#8a5a35"/>
+    <rect x="11" y="3" width="9" height="16" fill="#bd7b3e"/>
+    <rect x="39" y="4" width="8" height="14" fill="#bd7b3e"/>
+    <rect x="5" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="51" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#253443"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#4da3ff"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="46" y="68" width="17" height="10" fill="#09111f"/><rect x="48" y="70" width="13" height="6" fill="#2868c7"/><rect x="50" y="72" width="3" height="1" fill="#70e8ff"/><rect x="56" y="73" width="3" height="1" fill="#edf7ff"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">ENG</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Systems Programmer</text>
+    <text x="82" y="76" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">IDLE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#8091a5" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#8091a5" rx="2" opacity="0.9"/>
+  </g><g id="engineer-queued" transform="translate(160 256)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#d09a26" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#d09a26" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)" opacity="0.74">
+    <rect x="14" y="0" width="34" height="10" fill="#3f2a2a"/>
+    <rect x="8" y="8" width="48" height="14" fill="#8a5a35"/>
+    <rect x="11" y="3" width="9" height="16" fill="#bd7b3e"/>
+    <rect x="39" y="4" width="8" height="14" fill="#bd7b3e"/>
+    <rect x="5" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="51" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#253443"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#4da3ff"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="46" y="68" width="17" height="10" fill="#09111f"/><rect x="48" y="70" width="13" height="6" fill="#2868c7"/><rect x="50" y="72" width="3" height="1" fill="#70e8ff"/><rect x="56" y="73" width="3" height="1" fill="#edf7ff"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">ENG</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Systems Programmer</text>
+    <text x="82" y="76" fill="#d09a26" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">QUEUE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#d09a26" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#d09a26" rx="2" opacity="0.9"/>
+  </g><g id="engineer-speaking" transform="translate(320 256)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#2f6fc7" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#2f6fc7" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="11" fill="#70e8ff"/>
+    <rect x="28" y="97" width="6" height="16" fill="#70e8ff"/>
+    <rect x="38" y="101" width="6" height="8" fill="#70e8ff"/>
+    <rect x="48" y="96" width="6" height="16" fill="#70e8ff"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#3f2a2a"/>
+    <rect x="8" y="8" width="48" height="14" fill="#8a5a35"/>
+    <rect x="11" y="3" width="9" height="16" fill="#bd7b3e"/>
+    <rect x="39" y="4" width="8" height="14" fill="#bd7b3e"/>
+    <rect x="5" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="51" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#253443"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#4da3ff"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="46" y="68" width="17" height="10" fill="#09111f"/><rect x="48" y="70" width="13" height="6" fill="#2868c7"/><rect x="50" y="72" width="3" height="1" fill="#70e8ff"/><rect x="56" y="73" width="3" height="1" fill="#19a463"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="56" y="36" width="3" height="3" fill="#4da3ff"/><rect x="62" y="31" width="3" height="3" fill="#4da3ff"/>
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">ENG</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Systems Programmer</text>
+    <text x="82" y="76" fill="#2f6fc7" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">LIVE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="40" height="7" fill="#2f6fc7" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#70e8ff" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#2f6fc7" rx="2" opacity="0.9"/>
+  </g><g id="engineer-done" transform="translate(480 256)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#19a463" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#19a463" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#19a463"/>
+    <rect x="28" y="97" width="6" height="7" fill="#19a463"/>
+    <rect x="38" y="101" width="6" height="3" fill="#19a463"/>
+    <rect x="48" y="96" width="6" height="8" fill="#19a463"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#3f2a2a"/>
+    <rect x="8" y="8" width="48" height="14" fill="#8a5a35"/>
+    <rect x="11" y="3" width="9" height="16" fill="#bd7b3e"/>
+    <rect x="39" y="4" width="8" height="14" fill="#bd7b3e"/>
+    <rect x="5" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="51" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#19a463"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#253443"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#4da3ff"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="46" y="68" width="17" height="10" fill="#09111f"/><rect x="48" y="70" width="13" height="6" fill="#2868c7"/><rect x="50" y="72" width="3" height="1" fill="#70e8ff"/><rect x="56" y="73" width="3" height="1" fill="#19a463"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">ENG</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Systems Programmer</text>
+    <text x="82" y="76" fill="#19a463" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">DONE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="51" height="7" fill="#19a463" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#19a463" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#19a463" rx="2" opacity="0.9"/>
+  </g><g id="engineer-error" transform="translate(640 256)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#c7403a" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#c7403a" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#c7403a"/>
+    <rect x="28" y="97" width="6" height="7" fill="#c7403a"/>
+    <rect x="38" y="101" width="6" height="3" fill="#c7403a"/>
+    <rect x="48" y="96" width="6" height="8" fill="#c7403a"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#3f2a2a"/>
+    <rect x="8" y="8" width="48" height="14" fill="#8a5a35"/>
+    <rect x="11" y="3" width="9" height="16" fill="#bd7b3e"/>
+    <rect x="39" y="4" width="8" height="14" fill="#bd7b3e"/>
+    <rect x="5" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="51" y="20" width="8" height="18" fill="#3f2a2a"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="41" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="28" y="44" width="10" height="3" fill="#c7403a"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#253443"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#4da3ff"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="46" y="68" width="17" height="10" fill="#09111f"/><rect x="48" y="70" width="13" height="6" fill="#2868c7"/><rect x="50" y="72" width="3" height="1" fill="#70e8ff"/><rect x="56" y="73" width="3" height="1" fill="#edf7ff"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    <rect x="58" y="8" width="4" height="15" fill="#c7403a"/><rect x="58" y="27" width="4" height="4" fill="#c7403a"/>
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">ENG</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Systems Programmer</text>
+    <text x="82" y="76" fill="#c7403a" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">ERR</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="18" height="7" fill="#c7403a" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#c7403a" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#c7403a" rx="2" opacity="0.9"/>
+  </g><g id="moderator-idle" transform="translate(0 384)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#8091a5" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#8091a5" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#8a5b17"/>
+    <rect x="8" y="8" width="48" height="14" fill="#e0a12b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffe15a"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffe15a"/>
+    <rect x="5" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="51" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#674d9b"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#d89a18"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="49" y="62" width="10" height="16" fill="#09111f"/><rect x="52" y="65" width="4" height="10" fill="#fde68a"/><rect x="48" y="76" width="12" height="2" fill="#d89a18"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">MOD</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Coord Lead</text>
+    <text x="82" y="76" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">IDLE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#8091a5" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#8091a5" rx="2" opacity="0.9"/>
+  </g><g id="moderator-queued" transform="translate(160 384)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#d09a26" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#d09a26" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#8091a5"/>
+    <rect x="28" y="97" width="6" height="7" fill="#8091a5"/>
+    <rect x="38" y="101" width="6" height="3" fill="#8091a5"/>
+    <rect x="48" y="96" width="6" height="8" fill="#8091a5"/>
+    <g transform="translate(12 12)" opacity="0.74">
+    <rect x="14" y="0" width="34" height="10" fill="#8a5b17"/>
+    <rect x="8" y="8" width="48" height="14" fill="#e0a12b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffe15a"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffe15a"/>
+    <rect x="5" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="51" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#674d9b"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#d89a18"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="49" y="62" width="10" height="16" fill="#09111f"/><rect x="52" y="65" width="4" height="10" fill="#fde68a"/><rect x="48" y="76" width="12" height="2" fill="#d89a18"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">MOD</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Coord Lead</text>
+    <text x="82" y="76" fill="#d09a26" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">QUEUE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="27" height="7" fill="#d09a26" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#8091a5" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#d09a26" rx="2" opacity="0.9"/>
+  </g><g id="moderator-speaking" transform="translate(320 384)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#b8871f" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#b8871f" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="11" fill="#70e8ff"/>
+    <rect x="28" y="97" width="6" height="16" fill="#70e8ff"/>
+    <rect x="38" y="101" width="6" height="8" fill="#70e8ff"/>
+    <rect x="48" y="96" width="6" height="16" fill="#70e8ff"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#8a5b17"/>
+    <rect x="8" y="8" width="48" height="14" fill="#e0a12b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffe15a"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffe15a"/>
+    <rect x="5" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="51" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#09111f"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#674d9b"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#d89a18"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="49" y="62" width="10" height="16" fill="#09111f"/><rect x="52" y="65" width="4" height="10" fill="#fde68a"/><rect x="48" y="76" width="12" height="2" fill="#19a463"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="56" y="36" width="3" height="3" fill="#d89a18"/><rect x="62" y="31" width="3" height="3" fill="#d89a18"/>
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">MOD</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Coord Lead</text>
+    <text x="82" y="76" fill="#b8871f" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">LIVE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="40" height="7" fill="#b8871f" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#70e8ff" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#b8871f" rx="2" opacity="0.9"/>
+  </g><g id="moderator-done" transform="translate(480 384)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#19a463" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#19a463" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#19a463"/>
+    <rect x="28" y="97" width="6" height="7" fill="#19a463"/>
+    <rect x="38" y="101" width="6" height="3" fill="#19a463"/>
+    <rect x="48" y="96" width="6" height="8" fill="#19a463"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#8a5b17"/>
+    <rect x="8" y="8" width="48" height="14" fill="#e0a12b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffe15a"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffe15a"/>
+    <rect x="5" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="51" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="41" y="32" width="6" height="6" fill="#09111f"/>
+    <rect x="28" y="44" width="10" height="3" fill="#19a463"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#674d9b"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#d89a18"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="49" y="62" width="10" height="16" fill="#09111f"/><rect x="52" y="65" width="4" height="10" fill="#fde68a"/><rect x="48" y="76" width="12" height="2" fill="#19a463"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">MOD</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Coord Lead</text>
+    <text x="82" y="76" fill="#19a463" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">DONE</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="51" height="7" fill="#19a463" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#19a463" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#19a463" rx="2" opacity="0.9"/>
+  </g><g id="moderator-error" transform="translate(640 384)">
+    <rect x="0" y="0" width="160" height="128" fill="#101b2d"/>
+    <rect x="6" y="6" width="148" height="116" fill="#111c2e" stroke="#c7403a" stroke-width="4" rx="10"/>
+    <rect x="12" y="92" width="56" height="19" fill="#09111f" stroke="#c7403a" stroke-width="2" rx="4"/>
+    <rect x="18" y="99" width="6" height="5" fill="#c7403a"/>
+    <rect x="28" y="97" width="6" height="7" fill="#c7403a"/>
+    <rect x="38" y="101" width="6" height="3" fill="#c7403a"/>
+    <rect x="48" y="96" width="6" height="8" fill="#c7403a"/>
+    <g transform="translate(12 12)">
+    <rect x="14" y="0" width="34" height="10" fill="#8a5b17"/>
+    <rect x="8" y="8" width="48" height="14" fill="#e0a12b"/>
+    <rect x="11" y="3" width="9" height="16" fill="#ffe15a"/>
+    <rect x="39" y="4" width="8" height="14" fill="#ffe15a"/>
+    <rect x="5" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="51" y="20" width="8" height="18" fill="#8a5b17"/>
+    <rect x="10" y="18" width="44" height="33" fill="#09111f"/>
+    <rect x="12" y="20" width="40" height="32" fill="#f1bf78"/>
+    <rect x="17" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="41" y="32" width="6" height="6" fill="#c7403a"/>
+    <rect x="28" y="44" width="10" height="3" fill="#c7403a"/>
+    <rect x="13" y="57" width="38" height="27" fill="#09111f"/>
+    <rect x="16" y="60" width="32" height="23" fill="#674d9b"/>
+    <rect x="25" y="60" width="14" height="23" fill="#f8fafc"/>
+    <rect x="31" y="61" width="4" height="21" fill="#d89a18"/>
+    <rect x="8" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="48" y="65" width="10" height="23" fill="#f1bf78"/>
+    <rect x="49" y="62" width="10" height="16" fill="#09111f"/><rect x="52" y="65" width="4" height="10" fill="#fde68a"/><rect x="48" y="76" width="12" height="2" fill="#d89a18"/>
+    <rect x="18" y="84" width="13" height="9" fill="#263238"/>
+    <rect x="36" y="84" width="13" height="9" fill="#263238"/>
+    
+    <rect x="58" y="8" width="4" height="15" fill="#c7403a"/><rect x="58" y="27" width="4" height="4" fill="#c7403a"/>
+  </g>
+    <text x="82" y="31" fill="#edf7ff" font-family="Inter,Arial,sans-serif" font-size="15" font-weight="800" letter-spacing="1">MOD</text>
+    <text x="82" y="54" fill="#8091a5" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="1">Coord Lead</text>
+    <text x="82" y="76" fill="#c7403a" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1">ERR</text>
+    <rect x="82" y="96" width="54" height="7" fill="#22344b" rx="4"/>
+    <rect x="82" y="96" width="18" height="7" fill="#c7403a" rx="4"/>
+    <line x1="82" y1="112" x2="136" y2="112" stroke="#c7403a" stroke-width="2" opacity="0.78"/>
+    <rect x="139" y="104" width="8" height="8" fill="#c7403a" rx="2" opacity="0.9"/>
+  </g></svg>
