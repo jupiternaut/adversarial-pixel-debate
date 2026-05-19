@@ -3,6 +3,7 @@ import { roleDefinitions, type RoleId, type RoleStatus } from "../../shared/deba
 export interface RoleStateLike {
   status: RoleStatus;
   content: string;
+  latestEvent?: string;
   elapsedMs?: number;
   error?: string;
 }
@@ -64,7 +65,7 @@ export function createWarRoomSceneState(
         color: role.color,
         status: state.status,
         active: activeRole === role.id,
-        preview: previewText(state.error || state.content || role.shortMission)
+        preview: previewText(state.error || state.latestEvent || state.content || role.shortMission)
       };
     })
   };

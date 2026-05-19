@@ -8,7 +8,9 @@
 
 - 四个角色：Bull / Bear / Engineer / Moderator。
 - 前端：Three.js AI 战情室、角色状态灯效、小人对话气泡、完整日志。
-- 后端：通过本机 `codex exec` 调用 Codex CLI，沿用已登录的 Codex OAuth。
+- 后端：通过本机 `codex exec --json` 调用 Codex CLI，沿用已登录的 Codex OAuth。
+- 可观测性：桌面 UI、CLI、MCP 共用本地 JSONL run ledger。
+- 自动化：提供 `adss` CLI 和 stdio MCP server，方便 Codex/Claude Code 等本地 agent 工具启动、观察、导出和验证辩论。
 - 安全边界：不读取 `~/.codex/auth.json`，不要求 `OPENAI_API_KEY`。
 - 演示模式：不调用 Codex，用于调 UI 和流程。
 
@@ -37,6 +39,52 @@ macOS app 打包：
 ```bash
 npm run dist:mac
 ```
+
+## CLI / MCP / Run Ledger
+
+每次辩论都会写入 append-only JSONL 账本。默认目录是：
+
+```text
+.adss/runs
+```
+
+也可以用 `ADSS_RUN_DIR` 覆盖，例如让桌面 App、CLI 和 MCP 读同一份账本。
+
+构建并链接本地 CLI：
+
+```bash
+npm run build
+npm link
+adss health --json
+```
+
+常用命令：
+
+```bash
+adss run --topic "是否应该推进这个产品" --demo --json
+adss inspect <runId>
+adss watch <runId>
+adss export <runId> --format md
+adss verify <runId>
+```
+
+MCP stdio server：
+
+```bash
+npm run mcp
+# 或构建后：
+adss-mcp
+```
+
+MCP 暴露工具：
+
+- `start_debate(input)`
+- `get_run_state(runId)`
+- `watch_run(runId, cursor, limit)`
+- `export_run(runId, format)`
+- `verify_run(runId)`
+
+结构化事件类型包括 `run_started`、`agent_started`、`agent_event`、`agent_output`、`agent_error`、`run_finished` 和 `run_error`。桌面右侧 `Agent Trace` 面板会实时显示每个角色、阶段和子进程事件。
 
 ## 资源系统
 

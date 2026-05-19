@@ -10,7 +10,7 @@ let startedServer;
 
 async function createWindow() {
   const staticDir = join(__dirname, "..", "dist");
-  startedServer = await startDebateServer({ port: 0, staticDir });
+  startedServer = await startDebateServer({ port: 0, staticDir, runDir: join(app.getPath("userData"), "runs") });
 
   mainWindow = new BrowserWindow({
     width: 1280,

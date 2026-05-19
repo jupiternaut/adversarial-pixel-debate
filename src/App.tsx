@@ -3,47 +3,24 @@ import { CircleStop, FlaskConical, GitBranch, Layers3, Network, Play, ShieldChec
 import {
   roleDefinitions,
   type BriefExpansion,
-  type DebateStageId,
   type DebateInput,
   type RoleId,
-  type RoleOutputs,
   type RoleStatus
 } from "../shared/debate";
+import type { AgentTraceEvent, CodexHealth, DebateEvent } from "../shared/events";
 import { TranscriptPanel } from "./components/TranscriptPanel";
 import { WarRoomStage } from "./components/WarRoomStage";
 
 interface RoleState {
   status: RoleStatus;
   content: string;
+  latestEvent?: string;
   elapsedMs?: number;
   error?: string;
 }
 
 type RunStatus = "idle" | "running" | "finished" | "error";
 type BriefStatus = "idle" | "expanding" | "error";
-
-type DebateEvent =
-  | { type: "server-ready"; codex: CodexHealth }
-  | { type: "run-started"; runId: string; input: DebateInput }
-  | { type: "role-started"; runId: string; roleId: RoleId; stageId?: DebateStageId | "moderator"; stageLabel?: string }
-  | {
-      type: "role-output";
-      runId: string;
-      roleId: RoleId;
-      content: string;
-      elapsedMs: number;
-      stageId?: DebateStageId | "moderator";
-      stageLabel?: string;
-    }
-  | { type: "role-error"; runId: string; roleId: RoleId; message: string }
-  | { type: "run-finished"; runId: string; outputs: RoleOutputs }
-  | { type: "run-error"; runId: string; message: string };
-
-interface CodexHealth {
-  available: boolean;
-  version?: string;
-  message: string;
-}
 
 const initialRoles = Object.fromEntries(
   roleDefinitions.map((role) => [role.id, { status: "idle", content: "" }])
@@ -71,6 +48,7 @@ export function App() {
   const [codexHealth, setCodexHealth] = useState<CodexHealth | null>(null);
   const [socketReady, setSocketReady] = useState(false);
   const [runMessage, setRunMessage] = useState("等待输入");
+  const [agentTrace, setAgentTrace] = useState<AgentTraceEvent[]>([]);
   const [briefSeed, setBriefSeed] = useState(defaultInput.topic);
   const [briefStatus, setBriefStatus] = useState<BriefStatus>("idle");
   const [briefMessage, setBriefMessage] = useState("输入一句话，自动补全下面的 Brief。");
@@ -110,7 +88,7 @@ export function App() {
   const runTone = runStatus === "error" ? "danger" : runStatus === "running" ? "warn" : runStatus === "finished" ? "ok" : "neutral";
 
   function handleEvent(event: DebateEvent) {
-    if (event.type === "server-ready") {
+    if (event.type === "server_ready") {
       setCodexHealth(event.codex);
       return;
     }
@@ -118,12 +96,12 @@ export function App() {
       return;
     }
 
-    if (event.type === "run-started") {
+    if (event.type === "run_started") {
       setRunStatus("running");
       setRunMessage("辩论开始：开场立论 -> 交叉红队 -> 阶段共识");
       return;
     }
-    if (event.type === "role-started") {
+    if (event.type === "agent_started") {
       setActiveRole(event.roleId);
       setRunMessage(`${event.stageLabel ? `${event.stageLabel} · ` : ""}${roleLabel(event.roleId)} 正在发言`);
       setRoles((current) => ({
@@ -132,35 +110,51 @@ export function App() {
       }));
       return;
     }
-    if (event.type === "role-output") {
+    if (event.type === "agent_event") {
+      setActiveRole(event.roleId);
+      setRunMessage(`${event.stageLabel} · ${roleLabel(event.roleId)} · ${event.eventKind}`);
+      setAgentTrace((current) => [...current.slice(-119), event]);
+      setRoles((current) => ({
+        ...current,
+        [event.roleId]: {
+          ...current[event.roleId],
+          status: "speaking",
+          latestEvent: event.message,
+          error: undefined
+        }
+      }));
+      return;
+    }
+    if (event.type === "agent_output") {
       setRoles((current) => ({
         ...current,
         [event.roleId]: {
           ...current[event.roleId],
           status: "done",
           content: event.content,
+          latestEvent: event.content,
           elapsedMs: event.elapsedMs
         }
       }));
       setRunMessage(`${event.stageLabel ? `${event.stageLabel} · ` : ""}${roleLabel(event.roleId)} 已更新`);
       return;
     }
-    if (event.type === "role-error") {
+    if (event.type === "agent_error") {
       setRoles((current) => ({
         ...current,
-        [event.roleId]: { ...current[event.roleId], status: "error", error: event.message }
+        [event.roleId]: { ...current[event.roleId], status: "error", error: event.message, latestEvent: event.message }
       }));
       setRunStatus("error");
       setRunMessage(event.message);
       return;
     }
-    if (event.type === "run-finished") {
+    if (event.type === "run_finished") {
       setRunStatus("finished");
       setActiveRole(null);
       setRunMessage("辩论完成");
       return;
     }
-    if (event.type === "run-error") {
+    if (event.type === "run_error") {
       setRunStatus("error");
       setActiveRole(null);
       setRunMessage(event.message);
@@ -177,6 +171,7 @@ export function App() {
     >);
     setRunStatus("running");
     setRunMessage("提交给本机 Codex OAuth");
+    setAgentTrace([]);
 
     const response = await fetch("/api/debates", {
       method: "POST",
@@ -448,7 +443,7 @@ export function App() {
         </div>
       </section>
 
-      <TranscriptPanel roles={roles} activeRunId={activeRunId} codexMessage={codexHealth?.message} />
+      <TranscriptPanel roles={roles} activeRunId={activeRunId} codexMessage={codexHealth?.message} agentTrace={agentTrace} />
     </main>
   );
 }

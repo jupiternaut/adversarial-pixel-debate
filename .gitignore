@@ -3,6 +3,7 @@ dist
 dist-server
 release
 .codex
+.adss
 .DS_Store
 *.log
 .env

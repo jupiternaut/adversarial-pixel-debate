@@ -15,12 +15,17 @@
   ],
   "type": "module",
   "main": "electron/main.mjs",
+  "bin": {
+    "adss": "./dist-server/server/cli.js",
+    "adss-mcp": "./dist-server/server/mcp.js"
+  },
   "scripts": {
     "assets": "node scripts/generate-war-room-assets.mjs",
     "icon": "python3 scripts/generate-app-icon.py && iconutil -c icns build/icon.iconset -o build/icon.icns",
     "dev": "npm run assets && concurrently -k -n server,client -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
     "dev:client": "vite --host 127.0.0.1 --port 5177",
     "dev:server": "tsx watch server/index.ts",
+    "mcp": "tsx server/mcp.ts",
     "build": "npm run assets && tsc -b && vite build && npm run build:server",
     "build:server": "tsc -p tsconfig.server.json",
     "desktop": "npm run build && electron electron/main.mjs",
@@ -35,6 +40,7 @@
     "test": "npm run assets && vitest run"
   },
   "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "@vitejs/plugin-react": "^5.1.1",
     "concurrently": "^9.2.1",
     "express": "^5.2.1",
@@ -43,7 +49,8 @@
     "react-dom": "^19.2.3",
     "three": "^0.184.0",
     "tsx": "^4.21.0",
-    "ws": "^8.18.3"
+    "ws": "^8.18.3",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
